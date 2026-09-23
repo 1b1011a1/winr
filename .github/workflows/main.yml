@@ -7,7 +7,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: 检出仓库
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: 解压
       run: Copy-Item -Path.\A.msi -Destination C:\A.msi
     - name: 安装
